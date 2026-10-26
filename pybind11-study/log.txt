@@ -1,0 +1,53 @@
+PS D:\study\programming\python\project\Quantify\pybind11> mkdir build                                   
+
+
+    目录: D:\study\programming\python\project\Quantify\pybind11
+
+
+Mode                 LastWriteTime         Length Name                                                          
+----                 -------------         ------ ----                                                          
+d-----        2026-10-26     16:56                build                                                         
+
+
+PS D:\study\programming\python\project\Quantify\pybind11> cmake ..                                      
+CMake Warning:
+  Ignoring extra path from command line:
+
+   ".."
+
+
+CMake Error: The source directory "D:/study/programming/python/project/Quantify" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.
+PS D:\study\programming\python\project\Quantify\pybind11> cd .\build\
+PS D:\study\programming\python\project\Quantify\pybind11\build> cmake ..   
+-- Building for: Ninja
+-- The C compiler identification is GNU 16.2.0
+-- The CXX compiler identification is GNU 16.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/study/MinGW/mingw64/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: D:/study/MinGW/mingw64/bin/c++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- pybind11 v3.2.0 
+-- Found Python: D:/ruanjian/Python/Python3/python.exe (found suitable version "3.12.0", minimum required is "3.9") found components: Interpreter Development.Module Development.Embed
+Using compatibility mode for Python, set PYBIND11_FINDPYTHON to NEW/OLD to silence this message
+-- pybind11::lto disabled (problems with undefined symbols for MinGW for now)
+-- pybind11::thin_lto disabled (problems with undefined symbols for MinGW for now)
+-- Configuring done (3.5s)
+-- Generating done (0.1s)
+-- Build files have been written to: D:/study/programming/python/project/Quantify/pybind11/build
+PS D:\study\programming\python\project\Quantify\pybind11\build> cmake --build . --config Release
+[2/2] Linking CXX shared module HelloWorld.cp312-win_amd64.pyd
+PS D:\study\programming\python\project\Quantify\pybind11\build> python
+Python 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+Ctrl click to launch VS Code Native REPL (https://aka.ms/python-native-repl)
+>>> import HelloWorld
+>>> HelloWorld.add(1, 2)
+3
+>>> 

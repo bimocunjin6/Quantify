@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/study/programming/python/project/Quantify/pybind11/build/cmake_install.cmake",
+		"D:/study/programming/python/project/Quantify/pybind11/build/extern/pybind11/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

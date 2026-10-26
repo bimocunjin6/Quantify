@@ -1,0 +1,1530 @@
+xbx_stock_data\
+├── bond-15m-close-price\
+│   ├── csv*930
+├── bond-5m-close-price\
+│   ├── csv*930
+├── bond-trading-data-pro\
+│   ├── csv*930
+├── bond_and_stock\
+├── code\
+│   ├── aqua\
+│   │   ├── _internal\
+│   │   │   ├── _tcl_data\
+│   │   │   │   ├── encoding\
+│   │   │   │   │   ├── enc*80
+│   │   │   │   ├── http1.0\
+│   │   │   │   │   ├── tcl*2
+│   │   │   │   ├── msgs\
+│   │   │   │   │   ├── msg*127
+│   │   │   │   ├── opt0.4\
+│   │   │   │   │   ├── tcl*2
+│   │   │   │   ├── tzdata\
+│   │   │   │   │   ├── Africa\
+│   │   │   │   │   │   ├── 无扩展名*54
+│   │   │   │   │   ├── America\
+│   │   │   │   │   │   ├── Argentina\
+│   │   │   │   │   │   │   ├── 无扩展名*13
+│   │   │   │   │   │   ├── Indiana\
+│   │   │   │   │   │   │   ├── 无扩展名*8
+│   │   │   │   │   │   ├── Kentucky\
+│   │   │   │   │   │   │   ├── 无扩展名*2
+│   │   │   │   │   │   ├── North_Dakota\
+│   │   │   │   │   │   │   ├── 无扩展名*145
+│   │   │   │   │   ├── Antarctica\
+│   │   │   │   │   │   ├── 无扩展名*12
+│   │   │   │   │   ├── Arctic\
+│   │   │   │   │   │   └── 无扩展名*1
+│   │   │   │   │   ├── Asia\
+│   │   │   │   │   │   ├── 无扩展名*99
+│   │   │   │   │   ├── Atlantic\
+│   │   │   │   │   │   ├── 无扩展名*12
+│   │   │   │   │   ├── Australia\
+│   │   │   │   │   │   ├── 无扩展名*23
+│   │   │   │   │   ├── Brazil\
+│   │   │   │   │   │   ├── 无扩展名*4
+│   │   │   │   │   ├── Canada\
+│   │   │   │   │   │   ├── 无扩展名*8
+│   │   │   │   │   ├── Chile\
+│   │   │   │   │   │   ├── 无扩展名*2
+│   │   │   │   │   ├── Etc\
+│   │   │   │   │   │   ├── 无扩展名*35
+│   │   │   │   │   ├── Europe\
+│   │   │   │   │   │   ├── 无扩展名*64
+│   │   │   │   │   ├── Indian\
+│   │   │   │   │   │   ├── 无扩展名*11
+│   │   │   │   │   ├── Mexico\
+│   │   │   │   │   │   ├── 无扩展名*3
+│   │   │   │   │   ├── Pacific\
+│   │   │   │   │   │   ├── 无扩展名*44
+│   │   │   │   │   ├── SystemV\
+│   │   │   │   │   │   ├── 无扩展名*13
+│   │   │   │   │   ├── US\
+│   │   │   │   │   │   ├── tcl*9  无扩展名*57
+│   │   │   ├── _tk_data\
+│   │   │   │   ├── images\
+│   │   │   │   │   ├── eps*2  gif*10  无扩展名*1
+│   │   │   │   ├── msgs\
+│   │   │   │   │   ├── msg*18
+│   │   │   │   ├── ttk\
+│   │   │   │   │   ├── tcl*56  terms*1  无扩展名*1
+│   │   │   ├── certifi\
+│   │   │   │   ├── pem*1  typed*1
+│   │   │   ├── charset_normalizer\
+│   │   │   │   ├── pyd*2
+│   │   │   ├── contourpy\
+│   │   │   │   └── pyd*1
+│   │   │   ├── cryptography\
+│   │   │   │   └── hazmat\
+│   │   │   │       └── bindings\
+│   │   │   │           └── pyd*1
+│   │   │   ├── cryptography-45.0.2.dist-info\
+│   │   │   │   ├── licenses\
+│   │   │   │   │   ├── apache*1  bsd*1  无扩展名*5
+│   │   │   ├── dateutil\
+│   │   │   │   └── zoneinfo\
+│   │   │   │       └── gz*1
+│   │   │   ├── importlib_metadata-8.7.0.dist-info\
+│   │   │   │   ├── licenses\
+│   │   │   │   │   └── txt*1  无扩展名*5
+│   │   │   ├── kiwisolver\
+│   │   │   │   └── pyd*1
+│   │   │   ├── llvmlite\
+│   │   │   │   └── binding\
+│   │   │   │       └── dll*1
+│   │   │   ├── lxml\
+│   │   │   │   ├── html\
+│   │   │   │   │   └── pyd*1
+│   │   │   │   ├── isoschematron\
+│   │   │   │   │   └── resources\
+│   │   │   │   │       ├── rng\
+│   │   │   │   │       │   └── rng*1
+│   │   │   │   │       └── xsl\
+│   │   │   │   │           ├── iso-schematron-xslt1\
+│   │   │   │   │           │   ├── pyd*5  txt*1  xsl*7
+│   │   │   ├── lz4\
+│   │   │   │   ├── frame\
+│   │   │   │   │   └── pyd*2
+│   │   │   ├── lz4-4.4.5.dist-info\
+│   │   │   │   ├── licenses\
+│   │   │   │   │   └── txt*1  无扩展名*5
+│   │   │   ├── markupsafe\
+│   │   │   │   └── pyd*1
+│   │   │   ├── MarkupSafe-3.0.2.dist-info\
+│   │   │   │   ├── txt*2  无扩展名*4
+│   │   │   ├── matplotlib\
+│   │   │   │   ├── backends\
+│   │   │   │   │   ├── pyd*2
+│   │   │   │   ├── mpl-data\
+│   │   │   │   │   ├── fonts\
+│   │   │   │   │   │   ├── afm\
+│   │   │   │   │   │   │   ├── afm*46
+│   │   │   │   │   │   ├── pdfcorefonts\
+│   │   │   │   │   │   │   ├── afm*14  txt*1
+│   │   │   │   │   │   └── ttf\
+│   │   │   │   │   │       ├── ttf*38  无扩展名*2
+│   │   │   │   │   ├── images\
+│   │   │   │   │   │   ├── pdf*11  png*21  svg*19
+│   │   │   │   │   ├── plot_directive\
+│   │   │   │   │   │   └── css*1
+│   │   │   │   │   ├── sample_data\
+│   │   │   │   │   │   ├── axes_grid\
+│   │   │   │   │   │   │   └── csv*3  dat*2  gz*1  jpg*1  npy*1  npz*3  png*2  txt*1  xrc*1
+│   │   │   │   │   ├── stylelib\
+│   │   │   │   │   │   ├── lua*1  mplstyle*28  pyd*6  无扩展名*1
+│   │   │   ├── numba\
+│   │   │   │   ├── core\
+│   │   │   │   │   ├── annotations\
+│   │   │   │   │   │   ├── html*1  py*3
+│   │   │   │   │   ├── datamodel\
+│   │   │   │   │   │   ├── py*6
+│   │   │   │   │   ├── rewrites\
+│   │   │   │   │   │   ├── py*6
+│   │   │   │   │   ├── runtime\
+│   │   │   │   │   │   ├── c*2  cpp*1  h*2  py*5  pyd*1
+│   │   │   │   │   ├── rvsdg_frontend\
+│   │   │   │   │   │   ├── rvsdg\
+│   │   │   │   │   │   │   ├── py*6
+│   │   │   │   │   ├── typeconv\
+│   │   │   │   │   │   ├── py*4  pyd*1
+│   │   │   │   │   ├── types\
+│   │   │   │   │   │   ├── py*10
+│   │   │   │   │   ├── typing\
+│   │   │   │   │   │   ├── py*19
+│   │   │   │   │   ├── unsafe\
+│   │   │   │   │   │   ├── py*67
+│   │   │   │   ├── cpython\
+│   │   │   │   │   ├── unsafe\
+│   │   │   │   │   │   ├── py*22
+│   │   │   │   ├── cuda\
+│   │   │   │   │   └── cudadrv\
+│   │   │   │   │       └── pyd*1
+│   │   │   │   ├── experimental\
+│   │   │   │   │   └── jitclass\
+│   │   │   │   │       └── pyd*1
+│   │   │   │   ├── np\
+│   │   │   │   │   ├── math\
+│   │   │   │   │   │   ├── py*4
+│   │   │   │   │   ├── polynomial\
+│   │   │   │   │   │   ├── py*3
+│   │   │   │   │   ├── random\
+│   │   │   │   │   │   ├── py*6
+│   │   │   │   │   ├── ufunc\
+│   │   │   │   │   │   ├── py*11  pyd*5
+│   │   │   │   │   ├── unsafe\
+│   │   │   │   │   │   ├── py*13  pyd*5
+│   │   │   ├── numpy\
+│   │   │   │   ├── _core\
+│   │   │   │   │   ├── pyd*2
+│   │   │   │   ├── fft\
+│   │   │   │   │   └── pyd*1
+│   │   │   │   ├── linalg\
+│   │   │   │   │   └── pyd*1
+│   │   │   │   └── random\
+│   │   │   │       ├── pyd*9
+│   │   │   ├── numpy.libs\
+│   │   │   │   ├── dll*2
+│   │   │   ├── pandas\
+│   │   │   │   ├── _libs\
+│   │   │   │   │   ├── tslibs\
+│   │   │   │   │   │   ├── pyd*16
+│   │   │   │   │   ├── window\
+│   │   │   │   │   │   ├── pyd*28
+│   │   │   │   └── io\
+│   │   │   │       └── formats\
+│   │   │   │           └── templates\
+│   │   │   │               ├── tpl*7
+│   │   │   ├── pandas.libs\
+│   │   │   │   └── dll*1
+│   │   │   ├── PIL\
+│   │   │   │   ├── pyd*6
+│   │   │   ├── plotly\
+│   │   │   │   └── package_data\
+│   │   │   │       ├── datasets\
+│   │   │   │       │   ├── gz*10
+│   │   │   │       ├── templates\
+│   │   │   │       │   ├── js*1  json*10
+│   │   │   ├── psutil\
+│   │   │   │   └── pyd*1
+│   │   │   ├── pyarrow\
+│   │   │   │   ├── include\
+│   │   │   │   │   ├── arrow\
+│   │   │   │   │   │   ├── acero\
+│   │   │   │   │   │   │   ├── h*26
+│   │   │   │   │   │   ├── adapters\
+│   │   │   │   │   │   │   ├── orc\
+│   │   │   │   │   │   │   │   ├── h*2
+│   │   │   │   │   │   │   └── tensorflow\
+│   │   │   │   │   │   │       └── h*1
+│   │   │   │   │   │   ├── array\
+│   │   │   │   │   │   │   ├── h*22
+│   │   │   │   │   │   ├── c\
+│   │   │   │   │   │   │   ├── h*5
+│   │   │   │   │   │   ├── compute\
+│   │   │   │   │   │   │   ├── row\
+│   │   │   │   │   │   │   │   └── h*15
+│   │   │   │   │   │   ├── csv\
+│   │   │   │   │   │   │   ├── h*12
+│   │   │   │   │   │   ├── dataset\
+│   │   │   │   │   │   │   ├── h*18
+│   │   │   │   │   │   ├── engine\
+│   │   │   │   │   │   │   ├── substrait\
+│   │   │   │   │   │   │   │   ├── h*13
+│   │   │   │   │   │   ├── extension\
+│   │   │   │   │   │   │   └── h*1
+│   │   │   │   │   │   ├── filesystem\
+│   │   │   │   │   │   │   ├── h*13
+│   │   │   │   │   │   ├── flight\
+│   │   │   │   │   │   │   ├── h*22
+│   │   │   │   │   │   ├── io\
+│   │   │   │   │   │   │   ├── h*15
+│   │   │   │   │   │   ├── ipc\
+│   │   │   │   │   │   │   ├── h*11
+│   │   │   │   │   │   ├── json\
+│   │   │   │   │   │   │   ├── h*12
+│   │   │   │   │   │   ├── python\
+│   │   │   │   │   │   │   ├── h*36
+│   │   │   │   │   │   ├── tensor\
+│   │   │   │   │   │   │   └── h*1
+│   │   │   │   │   │   ├── testing\
+│   │   │   │   │   │   │   ├── h*15
+│   │   │   │   │   │   ├── util\
+│   │   │   │   │   │   │   ├── h*102
+│   │   │   │   │   │   ├── vendored\
+│   │   │   │   │   │   │   ├── datetime\
+│   │   │   │   │   │   │   │   ├── h*5
+│   │   │   │   │   │   │   ├── double-conversion\
+│   │   │   │   │   │   │   │   ├── h*12
+│   │   │   │   │   │   │   ├── pcg\
+│   │   │   │   │   │   │   │   ├── hpp*3
+│   │   │   │   │   │   │   ├── portable-snippets\
+│   │   │   │   │   │   │   │   ├── h*2
+│   │   │   │   │   │   │   ├── xxhash\
+│   │   │   │   │   │   │   │   └── h*41
+│   │   │   │   │   └── parquet\
+│   │   │   │   │       ├── api\
+│   │   │   │   │       │   ├── h*4
+│   │   │   │   │       ├── arrow\
+│   │   │   │   │       │   ├── h*4
+│   │   │   │   │       ├── encryption\
+│   │   │   │   │       │   ├── h*50
+│   │   │   │   ├── includes\
+│   │   │   │   │   ├── pxd*14
+│   │   │   │   ├── src\
+│   │   │   │   │   └── arrow\
+│   │   │   │   │       └── python\
+│   │   │   │   │           ├── cc*24  h*36  txt*1
+│   │   │   │   ├── tests\
+│   │   │   │   │   ├── data\
+│   │   │   │   │   │   ├── feather\
+│   │   │   │   │   │   │   └── feather*1
+│   │   │   │   │   │   ├── orc\
+│   │   │   │   │   │   │   ├── gz*4  md*1  orc*4
+│   │   │   │   │   │   └── parquet\
+│   │   │   │   │   │       ├── dll*10  h*2  lib*9  parquet*4  pxd*14  pxi*17  pyd*19  pyx*26
+│   │   │   ├── Pythonwin\
+│   │   │   │   ├── dll*1  pyd*1
+│   │   │   ├── pytz\
+│   │   │   │   └── zoneinfo\
+│   │   │   │       ├── Africa\
+│   │   │   │       │   ├── 无扩展名*54
+│   │   │   │       ├── America\
+│   │   │   │       │   ├── Argentina\
+│   │   │   │       │   │   ├── 无扩展名*13
+│   │   │   │       │   ├── Indiana\
+│   │   │   │       │   │   ├── 无扩展名*8
+│   │   │   │       │   ├── Kentucky\
+│   │   │   │       │   │   ├── 无扩展名*2
+│   │   │   │       │   ├── North_Dakota\
+│   │   │   │       │   │   ├── 无扩展名*146
+│   │   │   │       ├── Antarctica\
+│   │   │   │       │   ├── 无扩展名*12
+│   │   │   │       ├── Arctic\
+│   │   │   │       │   └── 无扩展名*1
+│   │   │   │       ├── Asia\
+│   │   │   │       │   ├── 无扩展名*99
+│   │   │   │       ├── Atlantic\
+│   │   │   │       │   ├── 无扩展名*12
+│   │   │   │       ├── Australia\
+│   │   │   │       │   ├── 无扩展名*23
+│   │   │   │       ├── Brazil\
+│   │   │   │       │   ├── 无扩展名*4
+│   │   │   │       ├── Canada\
+│   │   │   │       │   ├── 无扩展名*8
+│   │   │   │       ├── Chile\
+│   │   │   │       │   ├── 无扩展名*2
+│   │   │   │       ├── Etc\
+│   │   │   │       │   ├── 无扩展名*35
+│   │   │   │       ├── Europe\
+│   │   │   │       │   ├── 无扩展名*64
+│   │   │   │       ├── Indian\
+│   │   │   │       │   ├── 无扩展名*11
+│   │   │   │       ├── Mexico\
+│   │   │   │       │   ├── 无扩展名*3
+│   │   │   │       ├── Pacific\
+│   │   │   │       │   ├── 无扩展名*44
+│   │   │   │       ├── US\
+│   │   │   │       │   ├── tab*4  zi*1  无扩展名*58
+│   │   │   ├── pywin32_system32\
+│   │   │   │   ├── dll*2
+│   │   │   ├── scipy\
+│   │   │   │   ├── _lib\
+│   │   │   │   │   ├── _uarray\
+│   │   │   │   │   │   └── pyd*4
+│   │   │   │   ├── cluster\
+│   │   │   │   │   ├── pyd*3
+│   │   │   │   ├── fft\
+│   │   │   │   │   └── _pocketfft\
+│   │   │   │   │       └── pyd*1
+│   │   │   │   ├── integrate\
+│   │   │   │   │   ├── pyd*5
+│   │   │   │   ├── interpolate\
+│   │   │   │   │   ├── pyd*7
+│   │   │   │   ├── linalg\
+│   │   │   │   │   ├── pyd*11
+│   │   │   │   ├── ndimage\
+│   │   │   │   │   ├── pyd*2
+│   │   │   │   ├── optimize\
+│   │   │   │   │   ├── _highs\
+│   │   │   │   │   │   ├── pyd*2
+│   │   │   │   │   ├── _lsq\
+│   │   │   │   │   │   └── pyd*1
+│   │   │   │   │   ├── _trlib\
+│   │   │   │   │   │   └── pyd*12
+│   │   │   │   ├── sparse\
+│   │   │   │   │   ├── csgraph\
+│   │   │   │   │   │   ├── pyd*7
+│   │   │   │   │   ├── linalg\
+│   │   │   │   │   │   ├── _dsolve\
+│   │   │   │   │   │   │   └── pyd*1
+│   │   │   │   │   │   ├── _eigen\
+│   │   │   │   │   │   │   └── arpack\
+│   │   │   │   │   │   │       └── pyd*1
+│   │   │   │   │   │   └── _propack\
+│   │   │   │   │   │       ├── pyd*6
+│   │   │   │   ├── spatial\
+│   │   │   │   │   ├── transform\
+│   │   │   │   │   │   └── pyd*7
+│   │   │   │   ├── special\
+│   │   │   │   │   ├── dll*1  pyd*8
+│   │   │   │   └── stats\
+│   │   │   │       ├── _levy_stable\
+│   │   │   │       │   └── pyd*1
+│   │   │   │       ├── _rcont\
+│   │   │   │       │   └── pyd*1
+│   │   │   │       ├── _unuran\
+│   │   │   │       │   └── pyd*8
+│   │   │   ├── scipy.libs\
+│   │   │   │   └── dll*1
+│   │   │   ├── setuptools\
+│   │   │   │   └── _vendor\
+│   │   │   │       └── jaraco\
+│   │   │   │           └── text\
+│   │   │   │               └── Lorem txt*1
+│   │   │   ├── sklearn\
+│   │   │   │   ├── .libs\
+│   │   │   │   │   ├── dll*2
+│   │   │   │   ├── __check_build\
+│   │   │   │   │   ├── build*1  lib*1  pyd*1  pyx*1
+│   │   │   │   ├── _loss\
+│   │   │   │   │   ├── build*1  lib*1  pxd*1  pyd*1  tp*1
+│   │   │   │   ├── cluster\
+│   │   │   │   │   ├── _hdbscan\
+│   │   │   │   │   │   ├── build*2  lib*9  pxd*3  pyd*9  pyx*9
+│   │   │   │   ├── datasets\
+│   │   │   │   │   ├── data\
+│   │   │   │   │   │   ├── csv*6  gz*3
+│   │   │   │   │   ├── descr\
+│   │   │   │   │   │   ├── rst*14
+│   │   │   │   │   ├── images\
+│   │   │   │   │   │   ├── jpg*2  txt*1
+│   │   │   │   │   ├── tests\
+│   │   │   │   │   │   └── data\
+│   │   │   │   │   │       ├── openml\
+│   │   │   │   │   │       │   ├── id_1\
+│   │   │   │   │   │       │   │   ├── gz*4
+│   │   │   │   │   │       │   ├── id_1119\
+│   │   │   │   │   │       │   │   ├── gz*6
+│   │   │   │   │   │       │   ├── id_1590\
+│   │   │   │   │   │       │   │   ├── gz*4
+│   │   │   │   │   │       │   ├── id_2\
+│   │   │   │   │   │       │   │   ├── gz*6
+│   │   │   │   │   │       │   ├── id_292\
+│   │   │   │   │   │       │   │   ├── gz*8
+│   │   │   │   │   │       │   ├── id_3\
+│   │   │   │   │   │       │   │   ├── gz*4
+│   │   │   │   │   │       │   ├── id_40589\
+│   │   │   │   │   │       │   │   ├── gz*6
+│   │   │   │   │   │       │   ├── id_40675\
+│   │   │   │   │   │       │   │   ├── gz*7
+│   │   │   │   │   │       │   ├── id_40945\
+│   │   │   │   │   │       │   │   ├── gz*4
+│   │   │   │   │   │       │   ├── id_40966\
+│   │   │   │   │   │       │   │   ├── gz*6
+│   │   │   │   │   │       │   ├── id_42074\
+│   │   │   │   │   │       │   │   ├── gz*4
+│   │   │   │   │   │       │   ├── id_42585\
+│   │   │   │   │   │       │   │   ├── gz*4
+│   │   │   │   │   │       │   ├── id_561\
+│   │   │   │   │   │       │   │   ├── gz*6
+│   │   │   │   │   │       │   ├── id_61\
+│   │   │   │   │   │       │   │   ├── gz*6
+│   │   │   │   │   │       │   └── id_62\
+│   │   │   │   │   │       │       ├── build*1  gz*4  lib*1  pyx*1  txt*4
+│   │   │   │   ├── decomposition\
+│   │   │   │   │   ├── build*1  lib*2  pyd*2  pyx*2
+│   │   │   │   ├── ensemble\
+│   │   │   │   │   ├── _hist_gradient_boosting\
+│   │   │   │   │   │   ├── build*2  lib*8  pxd*2  pyx*8
+│   │   │   │   ├── externals\
+│   │   │   │   │   └── 无扩展名*1
+│   │   │   │   ├── feature_extraction\
+│   │   │   │   │   ├── build*1  lib*1  pyx*1
+│   │   │   │   ├── linear_model\
+│   │   │   │   │   ├── build*1  lib*3  pxd*1  pyd*3  pyx*1  tp*2
+│   │   │   │   ├── manifold\
+│   │   │   │   │   ├── build*1  lib*2  pyd*2  pyx*2
+│   │   │   │   ├── metrics\
+│   │   │   │   │   ├── _pairwise_distances_reduction\
+│   │   │   │   │   │   ├── build*1  lib*7  pxd*1  pyd*7  tp*12
+│   │   │   │   │   ├── cluster\
+│   │   │   │   │   │   ├── build*2  lib*3  pxd*1  pyd*3  pyx*2  tp*2
+│   │   │   │   ├── neighbors\
+│   │   │   │   │   ├── build*1  lib*4  pxd*2  pyd*4  pyx*2  tp*3
+│   │   │   │   ├── preprocessing\
+│   │   │   │   │   ├── build*1  lib*2  pyd*2  pyx*2
+│   │   │   │   ├── svm\
+│   │   │   │   │   ├── src\
+│   │   │   │   │   │   ├── liblinear\
+│   │   │   │   │   │   │   ├── c*1  cpp*2  h*3  无扩展名*1
+│   │   │   │   │   │   ├── libsvm\
+│   │   │   │   │   │   │   ├── c*2  cpp*2  h*2  无扩展名*1
+│   │   │   │   │   │   └── newrand\
+│   │   │   │   │   │       └── build*1  h*1  lib*4  pxi*2  pyd*3  pyx*4
+│   │   │   │   ├── tree\
+│   │   │   │   │   ├── build*1  lib*4  pxd*4  pyd*4  pyx*4
+│   │   │   │   ├── utils\
+│   │   │   │   │   ├── src\
+│   │   │   │   │   │   ├── build*2  cpp*1  css*1  h*1  lib*15  pxd*9  pyd*15  pyx*13  tp*4
+│   │   │   ├── tcl8\
+│   │   │   │   ├── 8.4\
+│   │   │   │   │   ├── platform\
+│   │   │   │   │   │   └── tm*2
+│   │   │   │   ├── 8.5\
+│   │   │   │   │   ├── tm*2
+│   │   │   │   └── 8.6\
+│   │   │   │       └── tm*1
+│   │   │   ├── tornado\
+│   │   │   │   └── pyd*1
+│   │   │   ├── wheel-0.45.1.dist-info\
+│   │   │   │   ├── txt*2  无扩展名*3
+│   │   │   ├── win32\
+│   │   │   │   ├── pyd*6
+│   │   │   ├── win32com\
+│   │   │   │   └── shell\
+│   │   │   │       └── pyd*1
+│   │   │   ├── zstandard\
+│   │   │   │   ├── dll*57  exe*1  pyd*22  zip*1
+│   ├── data\
+│   │   ├── err\
+│   │   │   ├── txt*10
+│   │   ├── log\
+│   │   ├── temp\
+│   │   │   ├── coin-binance-candle-csv-1h\
+│   │   │   ├── coin-binance-swap-candle-csv-1h\
+│   │   │   ├── coin-cap\
+│   │   │   ├── coin-coinmarketcap\
+│   │   │   ├── stock-15m-close-price\
+│   │   │   ├── stock-1h-index-data\
+│   │   │   ├── stock-1h-trading-data\
+│   │   │   ├── stock-5m-close-price\
+│   │   │   ├── stock-activation-records\
+│   │   │   ├── stock-analyst-predicted\
+│   │   │   ├── stock-analyst-ranking\
+│   │   │   ├── stock-anti-trend-factors\
+│   │   │   ├── stock-asset-classification\
+│   │   │   ├── stock-basic-bond\
+│   │   │   ├── stock-call-auction-data\
+│   │   │   ├── stock-chip-distribution\
+│   │   │   ├── stock-cny-rate\
+│   │   │   ├── stock-dividend-delivery\
+│   │   │   ├── stock-energy-factors\
+│   │   │   ├── stock-equity\
+│   │   │   ├── stock-etf-trading-data\
+│   │   │   ├── stock-fin-data-xbx\
+│   │   │   ├── └── 0*files
+│   │   │   ├── stock-fin-pre-data-sina\
+│   │   │   ├── stock-fin-pre-fore-data-xbx\
+│   │   │   ├── stock-hk-stock-data\
+│   │   │   ├── stock-ind-element-equity\
+│   │   │   ├── stock-interest-rate\
+│   │   │   ├── stock-lhb-organ\
+│   │   │   ├── stock-main-index-data\
+│   │   │   ├── stock-money-flow\
+│   │   │   ├── stock-money-flow-xbx\
+│   │   │   ├── stock-multi-factor-series\
+│   │   │   ├── stock-notices-title\
+│   │   │   ├── stock-oscillator-factors\
+│   │   │   ├── stock-popular-concept-detail\
+│   │   │   ├── stock-technical-factors\
+│   │   │   ├── stock-trading-data\
+│   │   │   ├── stock-trading-data-pro\
+│   │   │   ├── stock-trading-date\
+│   │   │   ├── stock-trend-factors\
+│   │   │   ├── stock-us-dividend-delivery-data\
+│   │   │   ├── stock-us-main-index-data\
+│   │   │   ├── stock-us-trading-data\
+│   │   │   ├── stock-volume-price-factors\
+│   │   │   └── stock-xueqiu-hot-stock\
+│   │   ├── dat*1  db*1  json*3  lock*1
+│   ├── fuel\
+│   │   ├── _internal\
+│   │   │   ├── bcj\
+│   │   │   │   └── pyd*1
+│   │   │   ├── certifi\
+│   │   │   │   ├── pem*1  typed*1
+│   │   │   ├── charset_normalizer\
+│   │   │   │   ├── pyd*2
+│   │   │   ├── Cryptodome\
+│   │   │   │   ├── Cipher\
+│   │   │   │   │   ├── pyd*18
+│   │   │   │   ├── Hash\
+│   │   │   │   │   ├── pyd*15
+│   │   │   │   ├── Math\
+│   │   │   │   │   └── pyd*1
+│   │   │   │   ├── Protocol\
+│   │   │   │   │   └── pyd*1
+│   │   │   │   ├── PublicKey\
+│   │   │   │   │   ├── pyd*5
+│   │   │   │   └── Util\
+│   │   │   │       ├── pyd*2
+│   │   │   ├── dateutil\
+│   │   │   │   └── zoneinfo\
+│   │   │   │       └── gz*1
+│   │   │   ├── importlib_metadata-8.0.0.dist-info\
+│   │   │   │   ├── txt*1  无扩展名*6
+│   │   │   ├── inflate64\
+│   │   │   │   └── pyd*1
+│   │   │   ├── jaraco\
+│   │   │   │   └── text\
+│   │   │   │       └── Lorem txt*1
+│   │   │   ├── markupsafe\
+│   │   │   │   └── pyd*1
+│   │   │   ├── MarkupSafe-3.0.2.dist-info\
+│   │   │   │   ├── txt*2  无扩展名*4
+│   │   │   ├── numpy\
+│   │   │   │   ├── core\
+│   │   │   │   │   ├── pyd*2
+│   │   │   │   ├── fft\
+│   │   │   │   │   └── pyd*1
+│   │   │   │   ├── linalg\
+│   │   │   │   │   └── pyd*1
+│   │   │   │   └── random\
+│   │   │   │       ├── pyd*9
+│   │   │   ├── numpy.libs\
+│   │   │   │   └── dll*1
+│   │   │   ├── pandas\
+│   │   │   │   ├── _libs\
+│   │   │   │   │   ├── tslibs\
+│   │   │   │   │   │   ├── pyd*16
+│   │   │   │   │   ├── window\
+│   │   │   │   │   │   ├── dll*2  pyd*25
+│   │   │   │   └── io\
+│   │   │   │       ├── formats\
+│   │   │   │       │   └── templates\
+│   │   │   │       │       ├── tpl*7
+│   │   │   │       └── sas\
+│   │   │   │           └── pyd*1
+│   │   │   ├── psutil\
+│   │   │   │   └── pyd*1
+│   │   │   ├── pyppmd\
+│   │   │   │   └── c\
+│   │   │   │       └── pyd*1
+│   │   │   ├── pytz\
+│   │   │   │   └── zoneinfo\
+│   │   │   │       ├── Africa\
+│   │   │   │       │   ├── 无扩展名*54
+│   │   │   │       ├── America\
+│   │   │   │       │   ├── Argentina\
+│   │   │   │       │   │   ├── 无扩展名*13
+│   │   │   │       │   ├── Indiana\
+│   │   │   │       │   │   ├── 无扩展名*8
+│   │   │   │       │   ├── Kentucky\
+│   │   │   │       │   │   ├── 无扩展名*2
+│   │   │   │       │   ├── North_Dakota\
+│   │   │   │       │   │   ├── 无扩展名*146
+│   │   │   │       ├── Antarctica\
+│   │   │   │       │   ├── 无扩展名*12
+│   │   │   │       ├── Arctic\
+│   │   │   │       │   └── 无扩展名*1
+│   │   │   │       ├── Asia\
+│   │   │   │       │   ├── 无扩展名*99
+│   │   │   │       ├── Atlantic\
+│   │   │   │       │   ├── 无扩展名*12
+│   │   │   │       ├── Australia\
+│   │   │   │       │   ├── 无扩展名*23
+│   │   │   │       ├── Brazil\
+│   │   │   │       │   ├── 无扩展名*4
+│   │   │   │       ├── Canada\
+│   │   │   │       │   ├── 无扩展名*8
+│   │   │   │       ├── Chile\
+│   │   │   │       │   ├── 无扩展名*2
+│   │   │   │       ├── Etc\
+│   │   │   │       │   ├── 无扩展名*35
+│   │   │   │       ├── Europe\
+│   │   │   │       │   ├── 无扩展名*64
+│   │   │   │       ├── Indian\
+│   │   │   │       │   ├── 无扩展名*11
+│   │   │   │       ├── Mexico\
+│   │   │   │       │   ├── 无扩展名*3
+│   │   │   │       ├── Pacific\
+│   │   │   │       │   ├── 无扩展名*44
+│   │   │   │       ├── US\
+│   │   │   │       │   ├── tab*4  zi*1  无扩展名*58
+│   │   │   ├── pyzstd\
+│   │   │   │   └── c\
+│   │   │   │       └── dll*51  exe*1  pyd*19  zip*1
+│   ├── rocket\
+│   │   ├── _internal\
+│   │   │   ├── certifi\
+│   │   │   │   ├── pem*1  typed*1
+│   │   │   ├── charset_normalizer\
+│   │   │   │   ├── pyd*2
+│   │   │   ├── dateutil\
+│   │   │   │   └── zoneinfo\
+│   │   │   │       └── gz*1
+│   │   │   ├── numpy\
+│   │   │   │   ├── _core\
+│   │   │   │   │   ├── pyd*2
+│   │   │   │   ├── fft\
+│   │   │   │   │   └── pyd*1
+│   │   │   │   ├── linalg\
+│   │   │   │   │   └── pyd*1
+│   │   │   │   └── random\
+│   │   │   │       ├── pyd*9
+│   │   │   ├── numpy.libs\
+│   │   │   │   ├── dll*2
+│   │   │   ├── pandas\
+│   │   │   │   ├── _libs\
+│   │   │   │   │   ├── tslibs\
+│   │   │   │   │   │   ├── pyd*16
+│   │   │   │   │   ├── window\
+│   │   │   │   │   │   ├── pyd*28
+│   │   │   │   └── io\
+│   │   │   │       └── formats\
+│   │   │   │           └── templates\
+│   │   │   │               ├── tpl*7
+│   │   │   ├── pandas.libs\
+│   │   │   │   └── dll*1
+│   │   │   ├── psutil\
+│   │   │   │   └── pyd*1
+│   │   │   ├── pytz\
+│   │   │   │   └── zoneinfo\
+│   │   │   │       ├── Africa\
+│   │   │   │       │   ├── 无扩展名*54
+│   │   │   │       ├── America\
+│   │   │   │       │   ├── Argentina\
+│   │   │   │       │   │   ├── 无扩展名*13
+│   │   │   │       │   ├── Indiana\
+│   │   │   │       │   │   ├── 无扩展名*8
+│   │   │   │       │   ├── Kentucky\
+│   │   │   │       │   │   ├── 无扩展名*2
+│   │   │   │       │   ├── North_Dakota\
+│   │   │   │       │   │   ├── 无扩展名*146
+│   │   │   │       ├── Antarctica\
+│   │   │   │       │   ├── 无扩展名*12
+│   │   │   │       ├── Arctic\
+│   │   │   │       │   └── 无扩展名*1
+│   │   │   │       ├── Asia\
+│   │   │   │       │   ├── 无扩展名*99
+│   │   │   │       ├── Atlantic\
+│   │   │   │       │   ├── 无扩展名*12
+│   │   │   │       ├── Australia\
+│   │   │   │       │   ├── 无扩展名*23
+│   │   │   │       ├── Brazil\
+│   │   │   │       │   ├── 无扩展名*4
+│   │   │   │       ├── Canada\
+│   │   │   │       │   ├── 无扩展名*8
+│   │   │   │       ├── Chile\
+│   │   │   │       │   ├── 无扩展名*2
+│   │   │   │       ├── Etc\
+│   │   │   │       │   ├── 无扩展名*35
+│   │   │   │       ├── Europe\
+│   │   │   │       │   ├── 无扩展名*64
+│   │   │   │       ├── Indian\
+│   │   │   │       │   ├── 无扩展名*11
+│   │   │   │       ├── Mexico\
+│   │   │   │       │   ├── 无扩展名*3
+│   │   │   │       ├── Pacific\
+│   │   │   │       │   ├── 无扩展名*44
+│   │   │   │       ├── US\
+│   │   │   │       │   ├── tab*4  zi*1  无扩展名*58
+│   │   │   ├── setuptools\
+│   │   │   │   └── _vendor\
+│   │   │   │       ├── importlib_metadata-8.0.0.dist-info\
+│   │   │   │       │   ├── txt*1  无扩展名*6
+│   │   │   │       └── jaraco\
+│   │   │   │           └── text\
+│   │   │   │               └── Lorem txt*1
+│   │   │   ├── wheel-0.45.1.dist-info\
+│   │   │   │   ├── txt*2  无扩展名*3
+│   │   │   ├── xtquant\
+│   │   │   │   ├── config\
+│   │   │   │   │   ├── user\
+│   │   │   │   │   │   └── root2\
+│   │   │   │   │   │       └── lua\
+│   │   │   │   │   │           ├── ini*8  json*1  log4cxx*1  lua*20  txt*1  xml*1
+│   │   │   │   ├── xtbson\
+│   │   │   │   │   └── bson37\
+│   │   │   │   │       └── dll*57  exe*1  ini*1  log4cxx*1  pyd*20  zip*1
+│   ├── zeus\
+│   │   ├── _internal\
+│   │   │   ├── _tcl_data\
+│   │   │   │   ├── encoding\
+│   │   │   │   │   ├── enc*80
+│   │   │   │   ├── http1.0\
+│   │   │   │   │   ├── tcl*2
+│   │   │   │   ├── msgs\
+│   │   │   │   │   ├── msg*127
+│   │   │   │   ├── opt0.4\
+│   │   │   │   │   ├── tcl*2
+│   │   │   │   ├── tzdata\
+│   │   │   │   │   ├── Africa\
+│   │   │   │   │   │   ├── 无扩展名*54
+│   │   │   │   │   ├── America\
+│   │   │   │   │   │   ├── Argentina\
+│   │   │   │   │   │   │   ├── 无扩展名*13
+│   │   │   │   │   │   ├── Indiana\
+│   │   │   │   │   │   │   ├── 无扩展名*8
+│   │   │   │   │   │   ├── Kentucky\
+│   │   │   │   │   │   │   ├── 无扩展名*2
+│   │   │   │   │   │   ├── North_Dakota\
+│   │   │   │   │   │   │   ├── 无扩展名*145
+│   │   │   │   │   ├── Antarctica\
+│   │   │   │   │   │   ├── 无扩展名*12
+│   │   │   │   │   ├── Arctic\
+│   │   │   │   │   │   └── 无扩展名*1
+│   │   │   │   │   ├── Asia\
+│   │   │   │   │   │   ├── 无扩展名*99
+│   │   │   │   │   ├── Atlantic\
+│   │   │   │   │   │   ├── 无扩展名*12
+│   │   │   │   │   ├── Australia\
+│   │   │   │   │   │   ├── 无扩展名*23
+│   │   │   │   │   ├── Brazil\
+│   │   │   │   │   │   ├── 无扩展名*4
+│   │   │   │   │   ├── Canada\
+│   │   │   │   │   │   ├── 无扩展名*8
+│   │   │   │   │   ├── Chile\
+│   │   │   │   │   │   ├── 无扩展名*2
+│   │   │   │   │   ├── Etc\
+│   │   │   │   │   │   ├── 无扩展名*35
+│   │   │   │   │   ├── Europe\
+│   │   │   │   │   │   ├── 无扩展名*64
+│   │   │   │   │   ├── Indian\
+│   │   │   │   │   │   ├── 无扩展名*11
+│   │   │   │   │   ├── Mexico\
+│   │   │   │   │   │   ├── 无扩展名*3
+│   │   │   │   │   ├── Pacific\
+│   │   │   │   │   │   ├── 无扩展名*44
+│   │   │   │   │   ├── SystemV\
+│   │   │   │   │   │   ├── 无扩展名*13
+│   │   │   │   │   ├── US\
+│   │   │   │   │   │   ├── tcl*9  无扩展名*57
+│   │   │   ├── _tk_data\
+│   │   │   │   ├── images\
+│   │   │   │   │   ├── eps*2  gif*10  无扩展名*1
+│   │   │   │   ├── msgs\
+│   │   │   │   │   ├── msg*18
+│   │   │   │   ├── ttk\
+│   │   │   │   │   ├── tcl*56  terms*1  无扩展名*1
+│   │   │   ├── certifi\
+│   │   │   │   ├── pem*1  typed*1
+│   │   │   ├── charset_normalizer\
+│   │   │   │   ├── pyd*2
+│   │   │   ├── contourpy\
+│   │   │   │   └── pyd*1
+│   │   │   ├── cryptography\
+│   │   │   │   └── hazmat\
+│   │   │   │       └── bindings\
+│   │   │   │           └── pyd*1
+│   │   │   ├── cryptography-45.0.2.dist-info\
+│   │   │   │   ├── licenses\
+│   │   │   │   │   ├── apache*1  bsd*1  无扩展名*5
+│   │   │   ├── dateutil\
+│   │   │   │   └── zoneinfo\
+│   │   │   │       └── gz*1
+│   │   │   ├── importlib_metadata-8.7.0.dist-info\
+│   │   │   │   ├── licenses\
+│   │   │   │   │   └── txt*1  无扩展名*5
+│   │   │   ├── kiwisolver\
+│   │   │   │   └── pyd*1
+│   │   │   ├── llvmlite\
+│   │   │   │   └── binding\
+│   │   │   │       └── dll*1
+│   │   │   ├── lxml\
+│   │   │   │   ├── html\
+│   │   │   │   │   └── pyd*1
+│   │   │   │   ├── isoschematron\
+│   │   │   │   │   └── resources\
+│   │   │   │   │       ├── rng\
+│   │   │   │   │       │   └── rng*1
+│   │   │   │   │       └── xsl\
+│   │   │   │   │           ├── iso-schematron-xslt1\
+│   │   │   │   │           │   ├── pyd*5  txt*1  xsl*7
+│   │   │   ├── lz4\
+│   │   │   │   ├── frame\
+│   │   │   │   │   └── pyd*2
+│   │   │   ├── lz4-4.4.5.dist-info\
+│   │   │   │   ├── licenses\
+│   │   │   │   │   └── txt*1  无扩展名*5
+│   │   │   ├── markupsafe\
+│   │   │   │   └── pyd*1
+│   │   │   ├── MarkupSafe-3.0.2.dist-info\
+│   │   │   │   ├── txt*2  无扩展名*4
+│   │   │   ├── matplotlib\
+│   │   │   │   ├── backends\
+│   │   │   │   │   ├── pyd*2
+│   │   │   │   ├── mpl-data\
+│   │   │   │   │   ├── fonts\
+│   │   │   │   │   │   ├── afm\
+│   │   │   │   │   │   │   ├── afm*46
+│   │   │   │   │   │   ├── pdfcorefonts\
+│   │   │   │   │   │   │   ├── afm*14  txt*1
+│   │   │   │   │   │   └── ttf\
+│   │   │   │   │   │       ├── ttf*38  无扩展名*2
+│   │   │   │   │   ├── images\
+│   │   │   │   │   │   ├── pdf*11  png*21  svg*19
+│   │   │   │   │   ├── plot_directive\
+│   │   │   │   │   │   └── css*1
+│   │   │   │   │   ├── sample_data\
+│   │   │   │   │   │   ├── axes_grid\
+│   │   │   │   │   │   │   └── csv*3  dat*2  gz*1  jpg*1  npy*1  npz*3  png*2  txt*1  xrc*1
+│   │   │   │   │   ├── stylelib\
+│   │   │   │   │   │   ├── lua*1  mplstyle*28  pyd*6  无扩展名*1
+│   │   │   ├── numba\
+│   │   │   │   ├── core\
+│   │   │   │   │   ├── annotations\
+│   │   │   │   │   │   ├── html*1  py*3
+│   │   │   │   │   ├── datamodel\
+│   │   │   │   │   │   ├── py*8
+│   │   │   │   │   ├── rewrites\
+│   │   │   │   │   │   ├── py*6
+│   │   │   │   │   ├── runtime\
+│   │   │   │   │   │   ├── c*2  cpp*1  h*2  py*5  pyd*1
+│   │   │   │   │   ├── rvsdg_frontend\
+│   │   │   │   │   │   ├── rvsdg\
+│   │   │   │   │   │   │   ├── py*6
+│   │   │   │   │   ├── typeconv\
+│   │   │   │   │   │   ├── py*4  pyd*1
+│   │   │   │   │   ├── types\
+│   │   │   │   │   │   ├── new_scalars\
+│   │   │   │   │   │   │   ├── py*16
+│   │   │   │   │   ├── typing\
+│   │   │   │   │   │   ├── py*25
+│   │   │   │   │   ├── unsafe\
+│   │   │   │   │   │   ├── py*69
+│   │   │   │   ├── cpython\
+│   │   │   │   │   ├── unsafe\
+│   │   │   │   │   │   ├── py*32
+│   │   │   │   ├── cuda\
+│   │   │   │   │   └── cudadrv\
+│   │   │   │   │       └── pyd*1
+│   │   │   │   ├── experimental\
+│   │   │   │   │   └── jitclass\
+│   │   │   │   │       └── pyd*1
+│   │   │   │   ├── np\
+│   │   │   │   │   ├── math\
+│   │   │   │   │   │   ├── py*4
+│   │   │   │   │   ├── polynomial\
+│   │   │   │   │   │   ├── py*3
+│   │   │   │   │   ├── random\
+│   │   │   │   │   │   ├── py*10
+│   │   │   │   │   ├── ufunc\
+│   │   │   │   │   │   ├── py*11  pyd*5
+│   │   │   │   │   ├── unsafe\
+│   │   │   │   │   │   ├── py*15  pyd*5
+│   │   │   ├── numpy\
+│   │   │   │   ├── _core\
+│   │   │   │   │   ├── pyd*2
+│   │   │   │   ├── fft\
+│   │   │   │   │   └── pyd*1
+│   │   │   │   ├── linalg\
+│   │   │   │   │   └── pyd*1
+│   │   │   │   └── random\
+│   │   │   │       ├── pyd*9
+│   │   │   ├── numpy.libs\
+│   │   │   │   ├── dll*4
+│   │   │   ├── pandas\
+│   │   │   │   ├── _libs\
+│   │   │   │   │   ├── tslibs\
+│   │   │   │   │   │   ├── pyd*16
+│   │   │   │   │   ├── window\
+│   │   │   │   │   │   ├── pyd*28
+│   │   │   │   └── io\
+│   │   │   │       └── formats\
+│   │   │   │           └── templates\
+│   │   │   │               ├── tpl*7
+│   │   │   ├── pandas.libs\
+│   │   │   │   └── dll*1
+│   │   │   ├── PIL\
+│   │   │   │   ├── pyd*6
+│   │   │   ├── plotly\
+│   │   │   │   └── package_data\
+│   │   │   │       ├── datasets\
+│   │   │   │       │   ├── gz*10
+│   │   │   │       ├── templates\
+│   │   │   │       │   ├── js*2  json*10
+│   │   │   ├── psutil\
+│   │   │   │   └── pyd*1
+│   │   │   ├── pyarrow\
+│   │   │   │   ├── include\
+│   │   │   │   │   ├── arrow\
+│   │   │   │   │   │   ├── acero\
+│   │   │   │   │   │   │   ├── h*26
+│   │   │   │   │   │   ├── adapters\
+│   │   │   │   │   │   │   ├── orc\
+│   │   │   │   │   │   │   │   ├── h*2
+│   │   │   │   │   │   │   └── tensorflow\
+│   │   │   │   │   │   │       └── h*1
+│   │   │   │   │   │   ├── array\
+│   │   │   │   │   │   │   ├── h*22
+│   │   │   │   │   │   ├── c\
+│   │   │   │   │   │   │   ├── h*5
+│   │   │   │   │   │   ├── compute\
+│   │   │   │   │   │   │   ├── row\
+│   │   │   │   │   │   │   │   └── h*15
+│   │   │   │   │   │   ├── csv\
+│   │   │   │   │   │   │   ├── h*12
+│   │   │   │   │   │   ├── dataset\
+│   │   │   │   │   │   │   ├── h*18
+│   │   │   │   │   │   ├── engine\
+│   │   │   │   │   │   │   ├── substrait\
+│   │   │   │   │   │   │   │   ├── h*13
+│   │   │   │   │   │   ├── extension\
+│   │   │   │   │   │   │   └── h*1
+│   │   │   │   │   │   ├── filesystem\
+│   │   │   │   │   │   │   ├── h*13
+│   │   │   │   │   │   ├── flight\
+│   │   │   │   │   │   │   ├── h*22
+│   │   │   │   │   │   ├── io\
+│   │   │   │   │   │   │   ├── h*15
+│   │   │   │   │   │   ├── ipc\
+│   │   │   │   │   │   │   ├── h*11
+│   │   │   │   │   │   ├── json\
+│   │   │   │   │   │   │   ├── h*12
+│   │   │   │   │   │   ├── python\
+│   │   │   │   │   │   │   ├── h*36
+│   │   │   │   │   │   ├── tensor\
+│   │   │   │   │   │   │   └── h*1
+│   │   │   │   │   │   ├── testing\
+│   │   │   │   │   │   │   ├── h*15
+│   │   │   │   │   │   ├── util\
+│   │   │   │   │   │   │   ├── h*102
+│   │   │   │   │   │   ├── vendored\
+│   │   │   │   │   │   │   ├── datetime\
+│   │   │   │   │   │   │   │   ├── h*5
+│   │   │   │   │   │   │   ├── double-conversion\
+│   │   │   │   │   │   │   │   ├── h*12
+│   │   │   │   │   │   │   ├── pcg\
+│   │   │   │   │   │   │   │   ├── hpp*3
+│   │   │   │   │   │   │   ├── portable-snippets\
+│   │   │   │   │   │   │   │   ├── h*2
+│   │   │   │   │   │   │   ├── xxhash\
+│   │   │   │   │   │   │   │   └── h*41
+│   │   │   │   │   └── parquet\
+│   │   │   │   │       ├── api\
+│   │   │   │   │       │   ├── h*4
+│   │   │   │   │       ├── arrow\
+│   │   │   │   │       │   ├── h*4
+│   │   │   │   │       ├── encryption\
+│   │   │   │   │       │   ├── h*50
+│   │   │   │   ├── includes\
+│   │   │   │   │   ├── pxd*14
+│   │   │   │   ├── src\
+│   │   │   │   │   └── arrow\
+│   │   │   │   │       └── python\
+│   │   │   │   │           ├── cc*24  h*36  txt*1
+│   │   │   │   ├── tests\
+│   │   │   │   │   ├── data\
+│   │   │   │   │   │   ├── feather\
+│   │   │   │   │   │   │   └── feather*1
+│   │   │   │   │   │   ├── orc\
+│   │   │   │   │   │   │   ├── gz*4  md*1  orc*4
+│   │   │   │   │   │   └── parquet\
+│   │   │   │   │   │       ├── dll*10  h*2  lib*9  parquet*4  pxd*14  pxi*17  pyd*19  pyx*26
+│   │   │   ├── Pythonwin\
+│   │   │   │   ├── dll*1  pyd*1
+│   │   │   ├── pytz\
+│   │   │   │   └── zoneinfo\
+│   │   │   │       ├── Africa\
+│   │   │   │       │   ├── 无扩展名*54
+│   │   │   │       ├── America\
+│   │   │   │       │   ├── Argentina\
+│   │   │   │       │   │   ├── 无扩展名*13
+│   │   │   │       │   ├── Indiana\
+│   │   │   │       │   │   ├── 无扩展名*8
+│   │   │   │       │   ├── Kentucky\
+│   │   │   │       │   │   ├── 无扩展名*2
+│   │   │   │       │   ├── North_Dakota\
+│   │   │   │       │   │   ├── 无扩展名*146
+│   │   │   │       ├── Antarctica\
+│   │   │   │       │   ├── 无扩展名*12
+│   │   │   │       ├── Arctic\
+│   │   │   │       │   └── 无扩展名*1
+│   │   │   │       ├── Asia\
+│   │   │   │       │   ├── 无扩展名*99
+│   │   │   │       ├── Atlantic\
+│   │   │   │       │   ├── 无扩展名*12
+│   │   │   │       ├── Australia\
+│   │   │   │       │   ├── 无扩展名*23
+│   │   │   │       ├── Brazil\
+│   │   │   │       │   ├── 无扩展名*4
+│   │   │   │       ├── Canada\
+│   │   │   │       │   ├── 无扩展名*8
+│   │   │   │       ├── Chile\
+│   │   │   │       │   ├── 无扩展名*2
+│   │   │   │       ├── Etc\
+│   │   │   │       │   ├── 无扩展名*35
+│   │   │   │       ├── Europe\
+│   │   │   │       │   ├── 无扩展名*64
+│   │   │   │       ├── Indian\
+│   │   │   │       │   ├── 无扩展名*11
+│   │   │   │       ├── Mexico\
+│   │   │   │       │   ├── 无扩展名*3
+│   │   │   │       ├── Pacific\
+│   │   │   │       │   ├── 无扩展名*44
+│   │   │   │       ├── US\
+│   │   │   │       │   ├── tab*4  zi*1  无扩展名*58
+│   │   │   ├── pywin32_system32\
+│   │   │   │   ├── dll*2
+│   │   │   ├── scipy\
+│   │   │   │   ├── _lib\
+│   │   │   │   │   ├── _uarray\
+│   │   │   │   │   │   └── pyd*4
+│   │   │   │   ├── cluster\
+│   │   │   │   │   ├── pyd*3
+│   │   │   │   ├── fft\
+│   │   │   │   │   └── _pocketfft\
+│   │   │   │   │       └── pyd*1
+│   │   │   │   ├── integrate\
+│   │   │   │   │   ├── pyd*5
+│   │   │   │   ├── interpolate\
+│   │   │   │   │   ├── pyd*9
+│   │   │   │   ├── linalg\
+│   │   │   │   │   ├── pyd*13
+│   │   │   │   ├── ndimage\
+│   │   │   │   │   ├── pyd*3
+│   │   │   │   ├── optimize\
+│   │   │   │   │   ├── _highs\
+│   │   │   │   │   │   ├── pyd*2
+│   │   │   │   │   ├── _highspy\
+│   │   │   │   │   │   ├── pyd*2
+│   │   │   │   │   ├── _lsq\
+│   │   │   │   │   │   └── pyd*1
+│   │   │   │   │   ├── _trlib\
+│   │   │   │   │   │   └── pyd*13
+│   │   │   │   ├── sparse\
+│   │   │   │   │   ├── csgraph\
+│   │   │   │   │   │   ├── pyd*7
+│   │   │   │   │   ├── linalg\
+│   │   │   │   │   │   ├── _dsolve\
+│   │   │   │   │   │   │   └── pyd*1
+│   │   │   │   │   │   ├── _eigen\
+│   │   │   │   │   │   │   └── arpack\
+│   │   │   │   │   │   │       └── pyd*1
+│   │   │   │   │   │   └── _propack\
+│   │   │   │   │   │       ├── pyd*6
+│   │   │   │   ├── spatial\
+│   │   │   │   │   ├── transform\
+│   │   │   │   │   │   └── pyd*7
+│   │   │   │   ├── special\
+│   │   │   │   │   ├── dll*1  pyd*8
+│   │   │   │   └── stats\
+│   │   │   │       ├── _levy_stable\
+│   │   │   │       │   └── pyd*1
+│   │   │   │       ├── _rcont\
+│   │   │   │       │   └── pyd*1
+│   │   │   │       ├── _unuran\
+│   │   │   │       │   └── pyd*8
+│   │   │   ├── scipy.libs\
+│   │   │   │   ├── dll*2
+│   │   │   ├── setuptools\
+│   │   │   │   └── _vendor\
+│   │   │   │       ├── importlib_metadata-8.0.0.dist-info\
+│   │   │   │       │   ├── txt*1  无扩展名*6
+│   │   │   │       └── jaraco\
+│   │   │   │           └── text\
+│   │   │   │               └── Lorem txt*1
+│   │   │   ├── sklearn\
+│   │   │   │   ├── .libs\
+│   │   │   │   │   ├── dll*2
+│   │   │   │   ├── __check_build\
+│   │   │   │   │   ├── build*1  lib*1  pyd*1  pyx*1
+│   │   │   │   ├── _loss\
+│   │   │   │   │   ├── build*1  lib*1  pxd*1  pyd*1  tp*1
+│   │   │   │   ├── cluster\
+│   │   │   │   │   ├── _hdbscan\
+│   │   │   │   │   │   ├── build*2  lib*9  pxd*3  pyd*9  pyx*9
+│   │   │   │   ├── datasets\
+│   │   │   │   │   ├── data\
+│   │   │   │   │   │   ├── csv*6  gz*3
+│   │   │   │   │   ├── descr\
+│   │   │   │   │   │   ├── rst*14
+│   │   │   │   │   ├── images\
+│   │   │   │   │   │   ├── jpg*2  txt*1
+│   │   │   │   │   ├── tests\
+│   │   │   │   │   │   └── data\
+│   │   │   │   │   │       ├── openml\
+│   │   │   │   │   │       │   ├── id_1\
+│   │   │   │   │   │       │   │   ├── gz*4
+│   │   │   │   │   │       │   ├── id_1119\
+│   │   │   │   │   │       │   │   ├── gz*6
+│   │   │   │   │   │       │   ├── id_1590\
+│   │   │   │   │   │       │   │   ├── gz*4
+│   │   │   │   │   │       │   ├── id_2\
+│   │   │   │   │   │       │   │   ├── gz*6
+│   │   │   │   │   │       │   ├── id_292\
+│   │   │   │   │   │       │   │   ├── gz*8
+│   │   │   │   │   │       │   ├── id_3\
+│   │   │   │   │   │       │   │   ├── gz*4
+│   │   │   │   │   │       │   ├── id_40589\
+│   │   │   │   │   │       │   │   ├── gz*6
+│   │   │   │   │   │       │   ├── id_40675\
+│   │   │   │   │   │       │   │   ├── gz*7
+│   │   │   │   │   │       │   ├── id_40945\
+│   │   │   │   │   │       │   │   ├── gz*4
+│   │   │   │   │   │       │   ├── id_40966\
+│   │   │   │   │   │       │   │   ├── gz*6
+│   │   │   │   │   │       │   ├── id_42074\
+│   │   │   │   │   │       │   │   ├── gz*4
+│   │   │   │   │   │       │   ├── id_42585\
+│   │   │   │   │   │       │   │   ├── gz*4
+│   │   │   │   │   │       │   ├── id_561\
+│   │   │   │   │   │       │   │   ├── gz*6
+│   │   │   │   │   │       │   ├── id_61\
+│   │   │   │   │   │       │   │   ├── gz*6
+│   │   │   │   │   │       │   └── id_62\
+│   │   │   │   │   │       │       ├── build*1  gz*4  lib*1  pyx*1  txt*4
+│   │   │   │   ├── decomposition\
+│   │   │   │   │   ├── build*1  lib*2  pyd*2  pyx*2
+│   │   │   │   ├── ensemble\
+│   │   │   │   │   ├── _hist_gradient_boosting\
+│   │   │   │   │   │   ├── build*2  lib*8  pxd*2  pyx*8
+│   │   │   │   ├── externals\
+│   │   │   │   │   └── 无扩展名*1
+│   │   │   │   ├── feature_extraction\
+│   │   │   │   │   ├── build*1  lib*1  pyx*1
+│   │   │   │   ├── linear_model\
+│   │   │   │   │   ├── build*1  lib*3  pxd*1  pyd*3  pyx*1  tp*2
+│   │   │   │   ├── manifold\
+│   │   │   │   │   ├── build*1  lib*2  pyd*2  pyx*2
+│   │   │   │   ├── metrics\
+│   │   │   │   │   ├── _pairwise_distances_reduction\
+│   │   │   │   │   │   ├── build*1  lib*7  pxd*1  pyd*7  tp*12
+│   │   │   │   │   ├── cluster\
+│   │   │   │   │   │   ├── build*2  lib*3  pxd*1  pyd*3  pyx*2  tp*2
+│   │   │   │   ├── neighbors\
+│   │   │   │   │   ├── build*1  lib*4  pxd*2  pyd*4  pyx*2  tp*3
+│   │   │   │   ├── preprocessing\
+│   │   │   │   │   ├── build*1  lib*2  pyd*2  pyx*2
+│   │   │   │   ├── svm\
+│   │   │   │   │   ├── src\
+│   │   │   │   │   │   ├── liblinear\
+│   │   │   │   │   │   │   ├── c*1  cpp*2  h*3  无扩展名*1
+│   │   │   │   │   │   ├── libsvm\
+│   │   │   │   │   │   │   ├── c*2  cpp*2  h*2  无扩展名*1
+│   │   │   │   │   │   └── newrand\
+│   │   │   │   │   │       └── build*1  h*1  lib*4  pxi*2  pyd*3  pyx*4
+│   │   │   │   ├── tree\
+│   │   │   │   │   ├── build*1  lib*5  pxd*5  pyd*5  pyx*5
+│   │   │   │   ├── utils\
+│   │   │   │   │   ├── src\
+│   │   │   │   │   │   ├── build*2  cpp*1  css*1  h*1  lib*15  pxd*9  pyd*15  pyx*13  tp*4
+│   │   │   ├── tcl8\
+│   │   │   │   ├── 8.4\
+│   │   │   │   │   ├── platform\
+│   │   │   │   │   │   └── tm*2
+│   │   │   │   ├── 8.5\
+│   │   │   │   │   ├── tm*2
+│   │   │   │   └── 8.6\
+│   │   │   │       └── tm*1
+│   │   │   ├── tornado\
+│   │   │   │   └── pyd*1
+│   │   │   ├── wheel-0.44.0.dist-info\
+│   │   │   │   ├── txt*2  无扩展名*3
+│   │   │   ├── wheel-0.45.1.dist-info\
+│   │   │   │   ├── txt*2  无扩展名*3
+│   │   │   ├── win32\
+│   │   │   │   ├── pyd*6
+│   │   │   ├── win32com\
+│   │   │   │   └── shell\
+│   │   │   │       └── pyd*1
+│   │   │   ├── zstandard\
+│   │   │   │   ├── dll*59  exe*1  pyd*22  zip*1
+│   ├── zip\
+│   ├── yml*5
+├── coin-binance-candle-csv-1h\
+│   ├── csv*662
+├── coin-binance-spot-swap-preprocess-pkl-1h\
+│   ├── output\
+│   │   ├── csv*1  pkl*1  xlsx*1
+│   ├── split\
+│   │   ├── spot\
+│   │   │   ├── csv*856
+│   │   └── swap\
+│   │       ├── csv*1063  pkl*4  txt*1
+├── coin-binance-swap-candle-csv-1h\
+│   ├── csv*787
+├── coin-cap\
+│   ├── csv*884
+├── coin-coinmarketcap\
+│   ├── csv*910
+├── events\
+│   ├── csv*5127
+├── min_futures_data\
+│   ├── IC_future_data\
+│   │   ├── csv*2491  txt*1
+│   ├── IF_future_data\
+│   │   ├── csv*3688  txt*1
+│   ├── IH_future_data\
+│   │   ├── csv*2489  txt*1
+│   └── IM_future_data\
+│       ├── csv*719  txt*1
+├── min_index_data\
+│   ├── 其他\
+│   │   └── csv*5  txt*1  zip*1
+├── min_stocks_data\
+│   ├── 2019\
+│   │   ├── csv*3767
+│   ├── 2020\
+│   │   ├── csv*4154
+│   ├── 2021\
+│   │   ├── csv*4692
+│   ├── 2022\
+│   │   ├── csv*5102
+│   ├── 2023\
+│   │   ├── csv*5374
+│   ├── 2024\
+│   │   ├── csv*5432
+│   ├── 2025\
+│   │   ├── 7z*7  csv*5427
+├── real_trading\
+│   ├── data\
+│   │   ├── locker\
+│   │   ├── timestamp\
+│   │   │   └── json*1
+│   │   ├── ui_status\
+│   │   │   ├── json*6
+│   │   ├── 回测结果\
+│   │   │   ├── X1-大杂烩\
+│   │   │   │   ├── csv*15  json*1  pkl*18
+│   │   │   ├── 三星选股策略\
+│   │   │   ├── 大杂烩\
+│   │   │   │   ├── csv*7  html*1  pkl*1
+│   │   │   ├── 策略库\
+│   │   │   ├── 选股策略精心随机混合\
+│   │   │   └── 默认策略\
+│   │   ├── 实盘信息\
+│   │   │   ├── 2026-04-21\
+│   │   │   ├── 2026-04-22\
+│   │   │   ├── 2026-04-23\
+│   │   │   ├── 2026-04-24\
+│   │   │   ├── 2026-04-25\
+│   │   │   ├── 2026-04-26\
+│   │   │   └── 2026-04-27\
+│   │   ├── 实盘选股结果\
+│   │   │   ├── X1-大杂烩\
+│   │   │   │   ├── csv*6  json*1  pkl*10
+│   │   │   ├── 三星选股策略\
+│   │   │   ├── 大杂烩\
+│   │   │   │   ├── csv*2  pkl*1
+│   │   │   ├── 策略库\
+│   │   │   └── 默认策略\
+│   │   ├── 运行缓存\
+│   │   │   ├── X1-大杂烩\
+│   │   │   │   ├── pkl*20
+│   │   │   └── 大杂烩\
+│   │   │       ├── json*2  pkl*3
+│   ├── logs\
+│   │   ├── 2026-04-21*1  2026-04-22*1  2026-04-23*1  2026-04-24*1  2026-04-25*1  2026-04-26*1
+│   ├── rocket\
+│   │   └── data\
+│   │       ├── ui_status\
+│   │       │   ├── json*3
+│   │       ├── 交易统计\
+│   │       ├── 历史信息\
+│   │       │   ├── 买入计划\
+│   │       │   │   ├── csv*2
+│   │       │   ├── 卖出计划\
+│   │       │   ├── 持仓信息\
+│   │       │   │   ├── csv*2
+│   │       │   ├── 订单信息\
+│   │       │   │   ├── csv*3
+│   │       ├── 系统日志\
+│   │       ├── 系统缓存\
+│   │       │   ├── 早盘择时\
+│   │       │   ├── 早盘模糊数据缓存\
+│   │       │   └── pkl*1
+│   │       ├── 账户信息\
+│   │       │   ├── csv*6  json*6
+│   ├── 信号库\
+│   │   ├── py*26
+│   ├── 因子库\
+│   │   ├── .Temp\
+│   │   ├── ini*1  py*69
+│   ├── 外部数据\
+│   ├── 截面因子库\
+│   │   ├── py*2
+│   └── 策略库\
+│       ├── py*32
+├── stock-15m-close-price\
+│   ├── csv*5852
+├── stock-1h-index-data\
+│   ├── csv*7
+├── stock-1h-trading-data\
+│   ├── temp\
+│   ├── csv*5796
+├── stock-5m-close-price\
+│   ├── csv*5852
+├── stock-activation-records\
+│   ├── csv*5650
+├── stock-analyst-predicted\
+│   ├── csv*5322
+├── stock-analyst-ranking\
+│   ├── csv*5360
+├── stock-anti-trend-factors\
+│   ├── csv*5498
+├── stock-asset-classification\
+│   ├── csv*8
+├── stock-basic-bond\
+│   ├── csv*980
+├── stock-call-auction-data\
+│   ├── csv*5484
+├── stock-call-auction-data-0920\
+│   ├── pkl*5370
+├── stock-call-auction-data_selfProcessed\
+│   ├── pkl*5370
+├── stock-chip-distribution\
+│   ├── csv*5919
+├── stock-cny-rate\
+│   ├── csv*4
+├── stock-dividend-delivery\
+│   ├── csv*5767
+├── stock-energy-factors\
+│   ├── csv*5498
+├── stock-equity\
+│   ├── csv*211
+├── stock-etf-trading-data\
+│   ├── csv*3507
+├── stock-fin-data-xbx\
+│   └── 5932*files
+├── stock-fin-pre-data-sina\
+│   ├── csv*5477
+├── stock-fin-pre-fore-data-xbx\
+│   ├── csv*5760
+├── stock-hk-stock-data\
+│   ├── csv*215
+├── stock-ind-element-equity\
+│   ├── csv*7
+├── stock-interest-rate\
+│   ├── csv*3
+├── stock-lhb-organ\
+│   ├── csv*3582
+├── stock-main-index-data\
+│   ├── csv*17
+├── stock-money-flow\
+│   ├── csv*4792
+├── stock-money-flow-xbx\
+│   ├── csv*4810
+├── stock-multi-factor-series\
+│   ├── csv*5498
+├── stock-notices-title\
+│   ├── csv*5848
+├── stock-oscillator-factors\
+│   ├── csv*5498
+├── stock-popular-concept-detail\
+│   ├── csv*5659
+├── stock-technical-factors\
+│   ├── csv*5498
+├── stock-trading-data\
+│   ├── csv*5919
+├── stock-trading-data-pro\
+│   ├── csv*5919  txt*1
+├── stock-trading-date\
+│   ├── csv*5920
+├── stock-trend-factors\
+│   ├── csv*5498
+├── stock-us-dividend-delivery-data\
+│   ├── csv*5864
+├── stock-us-main-index-data\
+│   └── csv*1
+├── stock-us-trading-data\
+│   ├── csv*13516
+├── stock-volume-price-factors\
+│   ├── csv*5498
+├── stock-xueqiu-hot-stock\
+│   ├── csv*8
+├── stock_concept_IFIND\
+│   ├── csv*5452
+├── temp\
+│   ├── coin-binance-candle-csv-1h-daily\
+│   │   ├── zip*5
+│   ├── coin-binance-swap-candle-csv-1h-daily\
+│   │   ├── zip*5
+│   ├── coin-cap-daily\
+│   │   ├── csv*6
+│   ├── coin-coinmarketcap-daily\
+│   │   ├── csv*5
+│   ├── stock-15m-close-price-daily\
+│   │   ├── csv*5
+│   ├── stock-1h-index-data-daily\
+│   │   ├── csv*5
+│   ├── stock-1h-trading-data-daily\
+│   │   ├── csv*5
+│   ├── stock-5m-close-price-daily\
+│   │   ├── csv*5
+│   ├── stock-activation-records-daily\
+│   │   ├── csv*6
+│   ├── stock-analyst-predicted-daily\
+│   │   ├── csv*7
+│   ├── stock-analyst-ranking-daily\
+│   │   ├── csv*5
+│   ├── stock-anti-trend-factors-daily\
+│   │   ├── csv*5
+│   ├── stock-asset-classification-daily\
+│   │   ├── csv*6
+│   ├── stock-basic-bond-daily\
+│   │   ├── csv*5
+│   ├── stock-call-auction-data-daily\
+│   │   ├── csv*5
+│   ├── stock-chip-distribution-daily\
+│   │   ├── csv*5
+│   ├── stock-cny-rate-daily\
+│   │   ├── zip*5
+│   ├── stock-dividend-delivery-daily\
+│   │   ├── csv*17
+│   ├── stock-energy-factors-daily\
+│   │   ├── csv*5
+│   ├── stock-equity-daily\
+│   │   ├── csv*3
+│   ├── stock-etf-trading-data-daily\
+│   │   ├── csv*4
+│   ├── stock-fin-data-xbx-daily\
+│   │   ├── zip*6
+│   ├── stock-fin-pre-data-sina-daily\
+│   ├── stock-fin-pre-fore-data-xbx-daily\
+│   │   ├── csv*7
+│   ├── stock-hk-stock-data-daily\
+│   │   ├── csv*5
+│   ├── stock-ind-element-equity-daily\
+│   │   ├── csv*5
+│   ├── stock-interest-rate-daily\
+│   │   ├── csv*4
+│   ├── stock-lhb-organ-daily\
+│   │   ├── csv*5
+│   ├── stock-main-index-data-daily\
+│   │   ├── csv*5
+│   ├── stock-money-flow-daily\
+│   │   ├── csv*5
+│   ├── stock-money-flow-xbx-daily\
+│   │   ├── csv*5
+│   ├── stock-multi-factor-series-daily\
+│   │   ├── csv*5
+│   ├── stock-notices-title-daily\
+│   │   ├── csv*7
+│   ├── stock-oscillator-factors-daily\
+│   │   ├── csv*5
+│   ├── stock-popular-concept-detail-daily\
+│   │   ├── csv*6
+│   ├── stock-technical-factors-daily\
+│   │   ├── csv*5
+│   ├── stock-trading-data-daily\
+│   │   ├── csv*5
+│   ├── stock-trading-data-pro-daily\
+│   │   ├── csv*5
+│   ├── stock-trading-date-daily\
+│   │   ├── csv*5
+│   ├── stock-trend-factors-daily\
+│   │   ├── csv*5
+│   ├── stock-us-dividend-delivery-data-daily\
+│   │   ├── csv*4
+│   ├── stock-us-main-index-data-daily\
+│   │   ├── csv*3
+│   ├── stock-us-trading-data-daily\
+│   │   └── csv*1
+│   ├── stock-volume-price-factors-daily\
+│   │   ├── csv*5
+│   └── stock-xueqiu-hot-stock-daily\
+│       ├── zip*6
+├── xbx_temporary_data\
+│   ├── stock-1h-trading-data-daily\
+│   │   └── csv*1
+│   ├── stock-analyst-ranking-daily\
+│   ├── stock-equity-daily\
+│   ├── stock-etf-trading-data-daily\
+│   ├── stock-fin-pre-data-sina-daily\
+│   └── stock-us-trading-data-daily\
+│       └── csv*1
+├── xueqiu-hot-data\
+│   ├── csv*4502
+├── zip\
+├── csv*2  ts*1  xlsx*2  zip*3

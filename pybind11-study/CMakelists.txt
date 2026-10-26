@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 3.23)
+project(HelloWorld)
+
+set(PYTHON_EXECUTABLE "")
+set(PYTHON_INCLUDE_DIRECTORY "")
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+if(MINGW)
+    # MinGW 环境下，强制静态链接所有库
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -static")
+elseif(MSVC)
+    # MSVC (Visual Studio) 环境下，使用静态运行库
+    set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
+endif()
+
+add_subdirectory(extern/pybind11)
+pybind11_add_module(HelloWorld hello.cpp)
